@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    background-color: aqua;
+    padding: 10px;
+    margin: auto;
+    max-width: 144px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row{
+    margin: 2px 0;
+}
+
+.input {
+    width: 131px;
+    height: 20px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.button{
+    height: 30px;
+    width: 30px;
+    margin: 1px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button0{
+    height: 30px;
+    width: 64px;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(29, 216, 223);
+    height: 28px;
+}
